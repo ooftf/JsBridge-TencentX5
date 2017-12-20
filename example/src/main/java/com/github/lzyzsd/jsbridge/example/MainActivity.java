@@ -8,7 +8,6 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.webkit.ValueCallback;
-import android.webkit.WebChromeClient;
 import android.widget.Button;
 
 import com.github.lzyzsd.jsbridge.BridgeHandler;
@@ -16,6 +15,7 @@ import com.github.lzyzsd.jsbridge.BridgeWebView;
 import com.github.lzyzsd.jsbridge.CallBackFunction;
 import com.github.lzyzsd.jsbridge.DefaultHandler;
 import com.google.gson.Gson;
+import com.tencent.smtt.sdk.WebChromeClient;
 
 public class MainActivity extends Activity implements OnClickListener {
 
