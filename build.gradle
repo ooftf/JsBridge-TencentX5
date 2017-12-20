@@ -16,9 +16,6 @@ allprojects {
     repositories {
         jcenter()
         google()
-        maven {
-            url "https://maven.google.com"
-        }
     }
     tasks.withType(Javadoc) { // 这一段是为了消除gbk的错误
         options{
