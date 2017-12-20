@@ -3,8 +3,8 @@ apply plugin: 'com.android.library'
 version = "1.0.0"
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.3"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.3"
 
     defaultConfig {
         minSdkVersion 9
@@ -25,9 +25,10 @@ android {
 }
 
 dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
 }
 
-def siteUrl = 'https://github.com/lzyzsd/JsBridge'
+/*def siteUrl = 'https://github.com/lzyzsd/JsBridge'
 def gitUrl = 'https://github.com/lzyzsd/JsBridge.git'
 apply plugin: 'com.github.dcendents.android-maven'
 group = "com.github.lzyzsd.jsbridge"
@@ -48,4 +49,4 @@ artifacts {
     archives sourcesJar
 }
 Properties properties = new Properties()
-properties.load(project.rootProject.file('local.properties').newDataInputStream())
+properties.load(project.rootProject.file('local.properties').newDataInputStream())*/

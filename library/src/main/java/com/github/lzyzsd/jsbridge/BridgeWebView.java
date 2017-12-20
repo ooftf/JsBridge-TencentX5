@@ -1,5 +1,6 @@
 package com.github.lzyzsd.jsbridge;
 
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Build;
@@ -7,7 +8,8 @@ import android.os.Looper;
 import android.os.SystemClock;
 import android.text.TextUtils;
 import android.util.AttributeSet;
-import android.webkit.WebView;
+
+import com.tencent.smtt.sdk.WebView;
 
 import java.util.ArrayList;
 import java.util.HashMap;

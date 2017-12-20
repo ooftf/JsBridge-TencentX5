@@ -1,14 +1,12 @@
 package com.github.lzyzsd.jsbridge;
 
 import android.graphics.Bitmap;
-import android.os.Build;
-import android.webkit.WebResourceRequest;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
+
+import com.tencent.smtt.sdk.WebView;
+import com.tencent.smtt.sdk.WebViewClient;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
-
 /**
  * 如果要自定义WebViewClient必须要集成此类
  * Created by bruce on 10/28/15.
@@ -38,9 +36,7 @@ public class BridgeWebViewClient extends WebViewClient {
             return super.shouldOverrideUrlLoading(view, url);
         }
     }
-
-    // 增加shouldOverrideUrlLoading在api》=24时
-    @Override
+    /*// 增加shouldOverrideUrlLoading在api》=24时    因为TencentX5不支持，所以暂时停用
     public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
@@ -62,7 +58,7 @@ public class BridgeWebViewClient extends WebViewClient {
         }else {
             return super.shouldOverrideUrlLoading(view, request);
         }
-    }
+    }*/
 
     @Override
     public void onPageStarted(WebView view, String url, Bitmap favicon) {
