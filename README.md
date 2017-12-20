@@ -24,7 +24,7 @@ repositories {
 }
 
 dependencies {
-    compile 'compile 'com.github.ooftf:JsBridge-TencentX5:1.0.5'
+   compile 'com.github.ooftf:JsBridge-TencentX5:1.0.5'
 }
 ```
 
