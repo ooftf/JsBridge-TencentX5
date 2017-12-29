@@ -147,7 +147,10 @@ If WebViewJavascriptBridge does not exit, you can listen to WebViewJavascriptBri
     }
 
 ```
-
+## 混淆
+#Warning:com.tencent.smtt.export.external.DexLoader: can't find referenced class dalvik.system.VMStack  
+-dontwarn com.tencent.smtt.**   
+-keep class dalvik.system.VMStack
 ## License
 
 This project is licensed under the terms of the MIT license.
