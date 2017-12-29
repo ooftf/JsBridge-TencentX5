@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/ooftf/JsBridge-TencentX5.svg)](https://jitpack.io/#ooftf/JsBridge-TencentX5)
 #JsBridge
 
 -----
@@ -24,7 +25,7 @@ repositories {
 }
 
 dependencies {
-   compile 'com.github.ooftf:JsBridge-TencentX5:1.0.5'
+   compile 'com.github.ooftf:JsBridge-TencentX5:1.1.0'
 }
 ```
 
